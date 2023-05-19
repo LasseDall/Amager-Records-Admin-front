@@ -65,10 +65,12 @@ window.addEventListener("load", async () => {
         renderTemplate(templateUpdateNews, "content")
         initUpdateNews(1, match)
       },
-      "/vinyl": () => {
-        renderTemplate(templateVinyls, "content")
-        initAllVinyls()
+
+        "/vinyl": () => {
+          renderTemplate(templateVinyls, "content")
+            initAllVinyls()
         },
+
       "/event/create": () => {
         renderTemplate(templateCreateEvent, "content")
         initCreateEvent()

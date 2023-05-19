@@ -26,7 +26,7 @@ async function createNews(){
     formData.append('event', JSON.stringify(eventId))
     
     try{
-        const token = localStorage.getItem("token")
+        //const token = localStorage.getItem("token")
         const response = await fetch(URL,{
             method:'POST',
             headers: { 
